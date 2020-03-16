@@ -60,14 +60,14 @@ export class HomePage {
 
     this.mStyle = dayStyle; //use only day style for now
 
-    let location = new google.maps.LatLng(coordinates.coords.latitude, coordinates.coords.longitude);
-    this.map.animateCamera({
-      target: location,
-        zoom: 14,
-        tilt: 60,
-        bearing: 140,
-        duration: 2000
-      }, function () { });
+    // let location = new google.maps.LatLng(coordinates.coords.latitude, coordinates.coords.longitude);
+    // this.map.animateCamera({
+    //   target: location,
+    //     zoom: 14,
+    //     tilt: 60,
+    //     bearing: 140,
+    //     duration: 2000
+    //   }, function () { });
     
 
     this.map = new google.maps.Map(document.getElementById('map'), {
