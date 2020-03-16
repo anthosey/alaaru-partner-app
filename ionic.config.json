@@ -1,0 +1,7 @@
+{
+  "name": "alaaru-partner",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
